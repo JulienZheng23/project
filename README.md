@@ -1,9 +1,8 @@
-# Book Scraper
+# Book Scrapers
 
-Ce projet est un script Python qui permet de scraper des catégories de livres et leurs détails depuis le site [Books to Scrape](https://books.toscrape.com/). Le script récupère les livres dans chaque catégorie et affiche un message si une catégorie a moins de livres que le seuil défini.
+Ce dépôt contient deux scripts Python pour scraper des livres depuis le site [Books to Scrape](https://books.toscrape.com/). Le premier script permet de récupérer les livres ayant une étoile, et le second script permet de récupérer les livres d'une catégorie en fonction d'un seuil de nombre de livres.
 
 ## Fonctionnalités
 
-- Scraping des catégories de livres disponibles sur le site.
-- Traitement de chaque catégorie pour récupérer les livres.
-- Affichage d'un message d'information si une catégorie a moins de livres que le seuil spécifié.
+1. **One Star Book Scraper** : Ce script récupère les livres ayant une seule étoile depuis la page principale et extrait leurs IDs.
+2. **Book Category Scraper** : Ce script parcourt les catégories de livres et affiche les catégories qui contiennent moins de livres que le seuil spécifié.
